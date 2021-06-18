@@ -1,7 +1,11 @@
 @media (min-width: 768px) {
+    .h2_fz30 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
     // Promo
     .promo {
-        height: 100vh;
         &__wrapper {
             &__information {
                 h1 {
@@ -26,9 +30,32 @@
             }
         }
     }
+
+    // Intensive
+    .intensive {
+        padding: 75px 0;
+        &__wrapper {
+            &__subtitle {
+                font-size: 23px;
+                line-height: 23px;
+            }
+            &__block {
+                &__item {
+                    img {
+                        width: fit-content;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1024px) {
+    .h2_fz30 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
     // Promo
     .promo {
         &__wrapper {
@@ -52,6 +79,21 @@
                 p {
                     font-size: 21px;
                     line-height: 28px;
+                }
+            }
+        }
+    }
+
+    // Intensive
+    .intensive {
+        &__wrapper {
+            &__block {
+                grid-template-columns: repeat(3, 1fr);
+                column-gap: 50px;
+                &__item {
+                    img {
+                        width: 100%;
+                    }
                 }
             }
         }
