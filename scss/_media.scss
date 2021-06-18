@@ -1,0 +1,96 @@
+@media (min-width: 768px) {
+    // Promo
+    .promo {
+        height: 100vh;
+        &__wrapper {
+            &__information {
+                h1 {
+                    margin-top: 50px;
+                    font-size: 25px;
+                    line-height: 25px;
+                }
+                &-sub_title {
+                    font-size: 40px;
+                    line-height: 40px;
+                    margin: 20px 0;
+                }
+                &-title {
+                    font-size: 25px;
+                    line-height: 25px;
+                }
+                p {
+                    margin-top: 20px;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    // Promo
+    .promo {
+        &__wrapper {
+            &__information {
+                h1 {
+                    margin-top: 50px;
+                    font-size: 35px;
+                    line-height: 35px;
+                }
+                &-sub_title {
+                    font-size: 55px;
+                    line-height: 55px;
+                    &::before, &::after {
+                        margin-bottom: 8px;
+                    }
+                }
+                &-title {
+                    font-size: 35px;
+                    line-height: 35px;
+                }
+                p {
+                    font-size: 21px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    // Promo
+    .promo {
+        &__wrapper {
+            &__information {
+                h1 {
+                    font-size: 41px;
+                    line-height: 41px;
+                }
+                &-sub_title {
+                    font-size: 80px;
+                    line-height: 80px;
+                    &::before, &::after {
+                        margin-bottom: 12px;
+                    }
+                }
+                &-title {
+                    font-size: 41px;
+                    line-height: 41px;
+                }
+            }
+            button {
+                margin-top: 70px;
+                padding: 25px 15px;
+            }
+            &-down {
+                margin-top: 70px;
+            }
+        }
+    }
+}
