@@ -48,6 +48,18 @@
             }
         }
     }
+
+    // Optimization
+    .optimization {
+        &__wrapper {
+            &__content {
+                h2 {
+                    font-size: 25px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1024px) {
@@ -98,6 +110,20 @@
             }
         }
     }
+
+    // Optimization
+    .optimization {
+        background: url(../img/woman_bg.png) -190% bottom no-repeat;
+        &__wrapper {
+            &__content {
+                margin-top: 60px;
+                h2 {
+                    font-size: 30px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1200px) {
@@ -134,5 +160,10 @@
                 margin-top: 70px;
             }
         }
+    }
+
+    // Optimization
+    .optimization {
+        background: url(../img/woman_bg.png) left bottom no-repeat;
     }
 }
